@@ -1,0 +1,8 @@
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 10vw;
+    justify-content: space-around;
+    align-items: center;
+}

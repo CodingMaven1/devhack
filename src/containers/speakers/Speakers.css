@@ -1,0 +1,54 @@
+.Speakers {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.Info{
+    height: 25vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem;
+    animation: 0.8s fadeinup forwards;
+}
+
+.Title3{
+    color: #FFC334;
+    font-size: 2.3rem;
+}
+
+.Img{
+    height: 60vh;
+    width: auto;
+    animation: 0.8s fadeinleft forwards;
+}
+
+@keyframes fadeinup{
+    0%{
+        opacity: 0;
+        margin-top: 10rem;
+    }
+
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes fadeinleft{
+    0%{
+        opacity: 0;
+        transform: translateX(40vw);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

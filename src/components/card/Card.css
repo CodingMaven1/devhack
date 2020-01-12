@@ -1,0 +1,9 @@
+.Card{
+    height: 22vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation: 0.8s fadeinup forwards;
+}

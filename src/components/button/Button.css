@@ -1,0 +1,18 @@
+.Button{
+    border: 1px solid #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Link:hover{
+    text-decoration: none;
+}
